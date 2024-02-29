@@ -7,6 +7,7 @@ on:
       - 'main'
     tags-ignore:
       - '*'
+  workflow_dispatch: # So can be triggered manually
 
 jobs:
   gh_pre_release:
